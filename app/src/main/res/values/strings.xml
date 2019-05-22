@@ -1,0 +1,97 @@
+<resources>
+    <string name="app_name">Project</string>
+    <string name="login">Login</string>
+    <string name="user_login">USER LOGIN</string>
+    <string name="username">Username</string>
+    <string name="please_enter_a_username">(Please enter a username)</string>
+    <string name="password">Password</string>
+    <string name="textview">TextView</string>
+    <string name="register">Register</string>
+    <string name="contentdescription">ContentDescription</string>
+    <string name="please_enter_a_password">(Please enter a password)</string>
+    <string name="welcome">Welcome!</string>
+    <string name="you_are_logged_as_role">You are logged as role</string>
+    <string name="select_your_role">Select your role:</string>
+    <string name="create_account">Create Account</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+
+    <string-array name="roles_Array">
+        <item>Service Provider</item>
+        <item>Homeowner</item>
+    </string-array>
+
+    <string-array name="services_Array">
+        <item>Appliance Install</item>
+        <item>Carpet Cleaning</item>
+        <item>Moving</item>
+        <item>Plumbing</item>
+        <item>Appliance Repair</item>
+        <item>Furniture Assembly</item>
+        <item>Locksmith</item>
+        <item>Painting</item>
+        <item>Window Cleaning</item>
+        <item>Electrical</item>
+        <item>Mould Remediation</item>
+        <item>Pest Control</item>
+        <item>Junk Removal</item>
+        <item>Handyman Services</item>
+    </string-array>
+
+    <string-array name="day_Array">
+        <item>Sunday</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+    </string-array>
+
+    <string-array name="search_Type">
+        <item>Type of Service</item>
+        <item>Time</item>
+        <item>Rating</item>
+    </string-array>
+
+    <string name="please_enter_user_availability">Please Enter User Availability</string>
+    <string name="monday">Monday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="sunday">Sunday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="to">to</string>
+    <string name="thursday">Thursday</string>
+    <string name="friday">Friday</string>
+    <string name="saturday">Saturday</string>
+    <string name="button">Button</string>
+
+    <string-array name="hour">
+        <item>Unavailable</item>
+        <item>00:00</item>
+        <item>01:00</item>
+        <item>02:00</item>
+        <item>03:00</item>
+        <item>04:00</item>
+        <item>05:00</item>
+        <item>06:00</item>
+        <item>07:00</item>
+        <item>08:00</item>
+        <item>09:00</item>
+        <item>10:00</item>
+        <item>11:00</item>
+        <item>12:00</item>
+        <item>13:00</item>
+        <item>14:00</item>
+        <item>15:00</item>
+        <item>16:00</item>
+        <item>17:00</item>
+        <item>18:00</item>
+        <item>19:00</item>
+        <item>20:00</item>
+        <item>21:00</item>
+        <item>22:00</item>
+        <item>23:00</item>
+    </string-array>
+    <string name="title_activity_home_owner__book_service">HomeOwner_BookService</string>
+
+</resources>

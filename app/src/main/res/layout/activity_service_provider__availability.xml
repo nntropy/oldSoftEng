@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ServiceProvider_Availability">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="49dp" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2">
+
+            <TableRow
+                android:id="@+id/tableRowSunday"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal">
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <Switch
+                    android:id="@+id/switchSunday"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sunday" />
+
+                <Spinner
+                    android:id="@+id/spinnerSundayFrom"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:dropDownWidth="100dp" />
+
+                <TextView
+                    android:id="@+id/textViewSundayTo"
+                    android:layout_width="58dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:text="to" />
+
+                <Spinner
+                    android:id="@+id/spinnerSundayTo"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:dropDownWidth="100dp" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRowMonday"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal">
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <Switch
+                    android:id="@+id/switchMonday"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Monday" />
+
+                <Spinner
+                    android:id="@+id/spinnerMondayFrom"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:dropDownWidth="100dp" />
+
+                <TextView
+                    android:id="@+id/textViewMondayTo"
+                    android:layout_width="58dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:text="to" />
+
+                <Spinner
+                    android:id="@+id/spinnerMondayTo"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:dropDownWidth="100dp" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRowTuesday"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal">
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <Switch
+                    android:id="@+id/switchTuesday"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tuesday" />
+
+                <Spinner
+                    android:id="@+id/spinnerTuesdayFrom"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:dropDownWidth="100dp" />
+
+                <TextView
+                    android:id="@+id/textViewTuesdayTo"
+                    android:layout_width="58dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:text="to" />
+
+                <Spinner
+                    android:id="@+id/spinnerTuesdayTo"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:dropDownWidth="100dp" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRowWednesday"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal">
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <Switch
+                    android:id="@+id/switchWednesday"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Wednesday" />
+
+                <Spinner
+                    android:id="@+id/spinnerWednesdayFrom"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:dropDownWidth="100dp" />
+
+                <TextView
+                    android:id="@+id/textViewWednesdayTo"
+                    android:layout_width="58dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:text="to" />
+
+                <Spinner
+                    android:id="@+id/spinnerWednesdayTo"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:dropDownWidth="100dp" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRowThursday"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal">
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <Switch
+                    android:id="@+id/switchThursday"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Thursday" />
+
+                <Spinner
+                    android:id="@+id/spinnerThursdayFrom"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:dropDownWidth="100dp" />
+
+                <TextView
+                    android:id="@+id/textViewThursdayTo"
+                    android:layout_width="58dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:text="to" />
+
+                <Spinner
+                    android:id="@+id/spinnerThursdayTo"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:dropDownWidth="100dp" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRowFriday"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal">
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <Switch
+                    android:id="@+id/switchFriday"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Friday" />
+
+                <Spinner
+                    android:id="@+id/spinnerFridayFrom"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:dropDownWidth="100dp" />
+
+                <TextView
+                    android:id="@+id/textViewFridayTo"
+                    android:layout_width="58dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:text="to" />
+
+                <Spinner
+                    android:id="@+id/spinnerFridayTo"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:dropDownWidth="100dp" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRowSaturday"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal">
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <Switch
+                    android:id="@+id/switchSaturday"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Saturday" />
+
+                <Spinner
+                    android:id="@+id/spinnerSaturdayFrom"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:dropDownWidth="100dp" />
+
+                <TextView
+                    android:id="@+id/textViewSaturdayTo"
+                    android:layout_width="58dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:text="to" />
+
+                <Spinner
+                    android:id="@+id/spinnerSaturdayTo"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:dropDownWidth="100dp" />
+            </TableRow>
+
+        </TableLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/editTextAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:hint="Address"/>
+
+            <EditText
+                android:id="@+id/editTextNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:inputType="phone"
+                android:hint="Phone Number"/>
+
+            <EditText
+                android:id="@+id/editTextDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:hint="Short description (20 characters or less)"/>
+
+            <EditText
+                android:id="@+id/editTextLicensed"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:hint="Licensed (Yes/No)"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnDelete"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="btnDelete"
+                android:text="Delete" />
+
+            <Button
+                android:id="@+id/btnUpdateValues"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="btnUpdate"
+                android:text="Update" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

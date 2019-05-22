@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeOwner_RateService">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="150dp" />
+
+        <EditText
+            android:id="@+id/editRating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="enter a rating ex. 5.0"
+            android:inputType="textPersonName"
+            android:layout_gravity="center"/>
+
+        <EditText
+            android:id="@+id/editComment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Enter a comment (Less than 50 characters)"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:id="@+id/addRating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="addRating"
+            android:text="add rating"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
